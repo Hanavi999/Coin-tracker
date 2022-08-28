@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@500&display=swap');
+ul{
+  list-style:none;
+  }
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  transition: 0.3s;
+}
+
+.body {
+  width: 500px;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 20px 15px #000;
+}
+
+.Title {
+  text-align: center;
+  font-family: 'DynaPuff', cursive;
+  color: #f50;
+}
+
+.selectCoin {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5px;
+}
+
+.selectBx {
+  width: 300px;
+  padding: .3em .5em; 
+  border: 1px solid #999;
+  border-radius: 15px;
+  font-family: 'Exo 2', sans-serif; 
+  -webkit-appearance: none; 
+  -moz-appearance: none;
+  appearance: none;
+  text-align: center;
+}
+
+.selectBx::-ms-expand {    
+  display: none;
+}
+
+.result div {
+  display: flex;
+  justify-content: center;
+}
+
+.result div input {
+  width: 200px;
+  padding: .3em .5em; 
+  border: 1px solid #999;
+  border-radius: 15px;
+  font-family: 'Exo 2', sans-serif; 
+  -webkit-appearance: none; 
+  -moz-appearance: none;
+  appearance: none;
+  text-align: center;
+}
+
+.resultInfo {
+  font-family: 'Exo 2', sans-serif; 
+  font-size: 20px;
+}
